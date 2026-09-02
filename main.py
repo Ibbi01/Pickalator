@@ -1,6 +1,6 @@
-time=input("enter time")
-time=int(time)
-if time>=12:
-    print("good morning")
+temperature = input("enter the temperature ")
+temperature = float(temperature)
+if temperature  >=30:
+    print("The temperature is hot")
 else:
-    print("good afternoon")
+    print("The temperature is cool")
